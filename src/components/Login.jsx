@@ -5,7 +5,7 @@ import styled from 'styled-components'
 export default function Login() {
     const handleClick = () => {
         const client_id = "0ea52eeffd74442cad67f132d3de33dd";
-        const redirect_uri = "http://localhost:3000/";
+        const redirect_uri = "https://spotify-clone-topaz-nine.vercel.app/";
         const api_uri = "https://accounts.spotify.com/authorize";
         const scope = [
           "user-read-private",
